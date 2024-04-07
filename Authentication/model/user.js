@@ -19,7 +19,6 @@ const userSchema= new mongoose.Schema({
 
 })
 
-
 // mongoose collection name specfied//created the new collection|table
 const usersDetail= new mongoose.model("userDetail",userSchema)
 
