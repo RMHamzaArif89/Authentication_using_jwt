@@ -97,9 +97,6 @@ router.post('/login',async(req,res)=>{
 })
 
 
-
-
-
 router.get('/home',verifyToken,(req,res)=>{
    try{
     res.render('home',{title:'Home|Page'})
