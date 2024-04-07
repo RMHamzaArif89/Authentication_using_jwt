@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 const userSchema=require('../model/user')
 const verifyToken = async(req, res, next) =>{
-
 try {
     const token = req.cookies.jwt;
 if (!token) return res.send('invalid token');
