@@ -13,7 +13,6 @@ router.use(express.urlencoded({extended:true}))
 router.use(express.json())
 
 
-
 router.get('/register',(req,res)=>{
     res.render('register')
 })
