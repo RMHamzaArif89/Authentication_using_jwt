@@ -25,8 +25,6 @@ app.use(userRouter)
 
 
 
-
-
 app.listen(5000,()=>{
     console.log('port is listening')
 })
